@@ -9,13 +9,14 @@ import Complexreducer from './hooks/usereducer/Complexreducer';
 import Reducer3 from './hooks/usereducer/Reducer3';
 import UseReducerContext from './hooks/usereducer/UseReducerContext';
 import FethingwithReducer from './hooks/usereducer/FethingwithReducer';
+import ParentComponent from './hooks/Usecallback/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-         <Useeff/>
+         {/* <Useeff/> */}
          {/* <Useeff1/> */}
-         <Useeffcleanup/>
+         {/* <Useeffcleanup/>
          <Datafetching/>
          <Fetchindividualpost/>
          <div>
@@ -24,7 +25,8 @@ function App() {
             <Reducer3/>
             <UseReducerContext/>
             <FethingwithReducer/>
-         </div>
+         </div> */}
+         <ParentComponent/>
        
     </div>
   );
