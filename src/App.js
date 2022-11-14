@@ -10,6 +10,10 @@ import Reducer3 from './hooks/usereducer/Reducer3';
 import UseReducerContext from './hooks/usereducer/UseReducerContext';
 import FethingwithReducer from './hooks/usereducer/FethingwithReducer';
 import ParentComponent from './hooks/Usecallback/ParentComponent';
+import Ref1 from './hooks/useref/Ref1';
+import Objectusestate from './hooks/usestate/Objectusestate';
+import Arrayusestate from './hooks/usestate/Arrayusestate';
+import GrandParent from './hooks/optimization/GrandParent';
 
 function App() {
   return (
@@ -26,8 +30,11 @@ function App() {
             <UseReducerContext/>
             <FethingwithReducer/>
          </div> */}
-         <ParentComponent/>
-       
+         {/* <ParentComponent/> */}
+         <Ref1/>
+        <Objectusestate/>
+        <Arrayusestate/>
+        <GrandParent/>
     </div>
   );
 }
